@@ -1,7 +1,7 @@
 # Fashion Item Classifier
 
 <!-- link of the project -->
-[Deployed project](https://.streamlit.app)
+[Deployed project](https://fashionclassifer.streamlit.app)
 
 ![App Icon](static/image.png)
 
@@ -62,12 +62,11 @@ To run Predictstock locally, follow these steps:
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/predictstock.git
+   git clone https://github.com/rajsahu2004/Fashion-Item-Classifier.git
    ```
 
-2. git clone https://github.com/yourusername/predictstock.git
 
-3. Install the requirements:
+2. Install the requirements:
 
    ```bash
    pip install -r requirements.txt
