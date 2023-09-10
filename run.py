@@ -11,9 +11,9 @@ def preprocess_image(image):
     image = image / 255.0  # Normalize pixel values to [0, 1]
     return image
 
-model1 = keras.models.load_model('fashion_mnist_cnn_model.h5')
-model2 = keras.models.load_model('fashion_mnist_cnn_model2.h5')
-model3 = keras.models.load_model('fashion_mnist_cnn_model3.h5')
+model1 = keras.models.load_model('models/fashion_mnist_cnn_model.h5')
+model2 = keras.models.load_model('models/fashion_mnist_cnn_model2.h5')
+model3 = keras.models.load_model('models/fashion_mnist_cnn_model3.h5')
 
 st.set_page_config(page_title='Fashion Item Classifier', page_icon='👕', layout='centered', initial_sidebar_state='auto')
 
